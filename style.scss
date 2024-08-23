@@ -1,0 +1,27 @@
+//seletor{
+//propriedade:valor;
+//  }
+
+//primeira coisa a fazer no arquivo de style é o reset
+//* seletor universal/global
+// dentro do *{} so colocamos o reset
+*{
+    margin: 0; //espaço de fora da tag
+    padding: 0; //espaço de dentro da tag
+    box-sizing: border-box; //é utilizada para alterar o cálculo da largura e altura
+}
+
+body{
+    background-color: rgb(255, 197, 232); //cor de fundo
+}
+
+img{
+    width: 350px; //largura
+    border-radius: 30px;
+}
+
+h1{
+    //color = cor
+    color: rgb(255, 0, 0);
+    //red, green, blue, 0 ao 255
+}
