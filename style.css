@@ -14,5 +14,15 @@ img {
 }
 
 h1 {
+  font-family: "New Amsterdam", sans-serif;
   color: rgb(255, 0, 0);
+}
+
+.tituloMusicas {
+  color: 255;
+}
+
+ol {
+  background-color: black;
+  color: azure;
 }/*# sourceMappingURL=style.css.map */

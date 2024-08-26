@@ -21,7 +21,24 @@ img{
 }
 
 h1{
+    font-family: "New Amsterdam", sans-serif;
     //color = cor
     color: rgb(255, 0, 0);
     //red, green, blue, 0 ao 255
+    
 }
+// no index.html nos vamos nomear a tag -> class
+// para chamar uma class aqui no style precisamos usar o: .nomedaClass
+ .tituloMusicas{
+    //propriedade:valor;
+  color: red($color: #ff0000);
+}
+
+ ol{
+    //COR HEXADECIMAL
+    // # SEGUIDA DE 3 PARES, CADA PARA É REFERENTE AO RBG, 00, ff 
+    //background-color: #040433
+    //rgb + alpha ele é referente ao uma cor com opacidade/transparencia
+ background-color:black ;
+ color: azure;
+} 
